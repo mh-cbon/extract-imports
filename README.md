@@ -5,9 +5,12 @@ A program to extract `import` directives of given go files.
 # Install
 
 ```
-git clone
+git clone https://github.com/mh-cbon/extract-imports.git
+cd extract-imports
 go install
-extract-imports...
+bin/extract-imports ...
+go run -- main.go
+go run -e main.go main.go
 ```
 
 # Usage
